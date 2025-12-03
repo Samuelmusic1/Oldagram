@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.logo {
+    width: 100px;
+} 
+
+.userimage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid #c6c6c6;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section {
+    border-bottom: 30px solid #ededed;
+    
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+.user1Avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user1 {
+    display: flex;
+    padding: 15px 15px;
+}
+
+.user1 p > span {
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+
+.user1 > p {
+    margin: 10px 0 0 12px;
+    font-size: 0.813rem;
+    font-weight: 700;
+}
+
+.user1Post {
+    width: 100%;
+}
+
+.logosize {
+    width: 30px;
+    margin: 15px 5px 0 7px;
+}
+
+.like, .post {
+    margin: 10px 0 0 15px;
+    font-weight: 700;
+    font-size: 0.813rem;
+}
+
+.post > span {
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+.post {
+    margin-bottom: 20px;
+}
